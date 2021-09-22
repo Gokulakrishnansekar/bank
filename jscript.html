@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GkBANK</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+		body{ 
+    background-image: url(bank1.jpg) ;
+  background-blend-mode: multiply;
+ background-position: center;
+background-repeat: no-repeat;
+background-size:inherit;
+background-attachment: fixed;
+  
+   background-size: cover;
+   
+   } 
+   #button{
+   background-color: rgb(212, 103, 31);
+
+   }
+   #grid{
+	   display: flex;
+	   justify-content: center;
+   }
+   @media only screen and (max-width: 400px) {
+  body {
+    height: 100%;
+	background-attachment: fixed;
+
+  }
+  #button
+  {
+	  color: white;
+	 background-color: rgb(67, 67, 151);
+	  
+  }
+
+}
+	   
+   
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center; color:white;
+	 color: white;
+    text-shadow: -1px 0 0 blue, 1px 1px 0 blue,
+             2px -1px 0 blue, 3px 0 0 blue;
+
+font-size:50px;
+	">Gokul BANK</h1>
+<form  action="allcustomers.php">
+	<div id="grid">
+	<button type="submit" id="button" value="submit" 
+>ALL CUTOMERS</button>
+	
+	</form>
+<form  action="history.php">
+	<button type="submit" id="button" value="submit" 
+>SHOW HISTORY</button>
+</div>
+	
+</form>
+</body>
+</html>
+
+
